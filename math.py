@@ -28,4 +28,10 @@ def function(x, y):
         pass
 
 
-function(4.1, 8.8)
+k = input("Enter x: ")
+l = input("Enter y: ")
+
+x = float(k)
+y = float(l)
+
+function(x, y)
